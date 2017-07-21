@@ -1,0 +1,92 @@
+body
+{
+	background-image: url(back1.jpg);
+}
+h1
+{
+	color:rgba(177,200,245,1);
+	text-align: center;
+}
+img
+{
+	max-height: 250px;
+	border-radius: 100px;
+
+}
+img:hover
+{
+	-webkit-filter:grayscale(100%);
+	-webkit-transform:scale(1.5);
+		-moz-transform:scale(1.5);
+			-ms-transform:scale(1.5);
+				-o-transform:scale(1.5);
+	transform:scale(1.5);
+}
+p
+{
+	color: white;
+	width: 550px;
+	background-color: rgba(255,0,0,0.05);
+	padding: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	position: absolute;
+	top: 170px;
+	left: 430px;
+	line-height: 170%;
+}
+a:link
+{
+	color: red;
+	text-decoration: none;
+}
+a:hover
+{
+	color:hotpink;
+	text-decoration: underline;
+}
+a:visited
+{
+	color:brown;
+}
+
+h3
+{
+
+	color:rgba(200,177,245,1);
+	position: absolute;
+	top: 130px;
+	left: 630px;
+	
+	}
+	table
+	{
+		color:red;
+		background-color: rgba(0,255,255,0.3);
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.b
+	{
+		width:100%;
+		height: 15%;
+		color:red;
+		background-color: rgba(0,255,0,0.35);
+		position: absolute;
+		top: 580px;
+		transform-style: preserve-3d;
+	}
+	h4
+	{
+	position: absolute;
+	top:580px;
+	left: 630px;
+	color: red;	
+	}
+	.c
+	{
+	text-align: center;
+	color: red;		
+	}
